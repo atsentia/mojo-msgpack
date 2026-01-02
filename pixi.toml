@@ -1,0 +1,14 @@
+[project]
+name = "mojo-msgpack"
+version = "0.1.0"
+description = "Pure Mojo MessagePack serialization library"
+authors = ["IDEA2CODE"]
+channels = ["conda-forge", "modular"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+build = "mojo build src -o lib/mojo_msgpack.mojopkg"
+test = "mojo run tests/test_msgpack.mojo"
+
+[dependencies]
+max = ">=24.6,<25"
