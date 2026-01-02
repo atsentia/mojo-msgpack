@@ -85,7 +85,7 @@ mojo run tests/test_msgpack.mojo
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Part of mojo-contrib
 
